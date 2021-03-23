@@ -11,6 +11,9 @@ class optest{
 private:
     int damn;
 public:
+    optest(){
+        this->damn = 0;
+    }
     optest(int damn){
         this->damn = damn;
     }
